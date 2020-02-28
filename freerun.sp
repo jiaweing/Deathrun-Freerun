@@ -102,7 +102,7 @@ public Action Timer_HUD(Handle hTimer)
 		{
 			if (IsValidClient(i))
 			{
-				SetHudTextParamsEx(0.03, 0.03, 1.0, {255,255,255,255}, {255,255,255,200}, 2, 0.1, 0.1, 0.1);
+				SetHudTextParamsEx(-1.0, 0.88, 1.0, {255,255,255,255}, {255,255,255,200}, 2, 0.1, 0.1, 0.1);
 				ShowHudText(i, -1, "Free Run");
 			}
 		}
